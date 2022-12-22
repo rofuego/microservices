@@ -9,7 +9,6 @@
 	</parent>
 	<groupId>cl.sourcecode.microservices</groupId>
 	<artifactId>currency-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>currency-service</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
