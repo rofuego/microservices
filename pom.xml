@@ -5,7 +5,7 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.7.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
+  </parent>
   <groupId>cl.sourcecode</groupId>
   <artifactId>microservices</artifactId>
   <version>0.0.1-SNAPSHOT</version>
@@ -13,5 +13,9 @@
   <name>microservices</name>
   <properties>
 		<java.version>11</java.version>
-	</properties>
+  </properties>
+  <modules>
+	  <module>conversion-service</module>
+	  <module>currency-service</module>
+  </modules>
 </project>
