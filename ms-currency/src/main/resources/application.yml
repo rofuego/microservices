@@ -1,0 +1,9 @@
+project:
+  name: ^project.artifactId^
+  version: ^project.version^
+spring:
+  profiles:
+    active:
+    - local
+
+# docker run -d -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=root -e POSTGRES_DB=currency --name currency-db -p 5432:5432 postgres:latest

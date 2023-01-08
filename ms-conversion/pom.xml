@@ -5,20 +5,17 @@
 	<parent>
 		<groupId>cl.sourcecode</groupId>
         <artifactId>microservices</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0</version>
 	</parent>
 	<groupId>cl.sourcecode.microservices</groupId>
-	<artifactId>currency-service</artifactId>
-	<name>currency-service</name>
+	<artifactId>ms-conversion</artifactId>
+	<name>ms-conversion</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
+		<resource.delimiter>^</resource.delimiter>
 	</properties>
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -29,11 +26,6 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
-		</dependency>
-		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

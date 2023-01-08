@@ -1,13 +1,13 @@
-package cl.sourcecode.microservices.conversion;
+package cl.sourcecode.microservices.ms.currency;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ConversionServiceApplication {
+public class MsCurrencyApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ConversionServiceApplication.class, args);
+		SpringApplication.run(MsCurrencyApplication.class, args);
 	}
 
 }
