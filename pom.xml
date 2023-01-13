@@ -6,7 +6,7 @@
 		<version>2.7.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
   </parent>
-  <groupId>cl.sourcecode</groupId>
+  <groupId>cl.sourcecode.microservices</groupId>
   <artifactId>microservices</artifactId>
   <version>1.0.0</version>
   <packaging>pom</packaging>
@@ -17,5 +17,7 @@
   <modules>
 	  <module>ms-conversion</module>
 	  <module>ms-currency</module>
+	  <module>ms-course</module>
+	  <module>ms-student</module>
   </modules>
 </project>

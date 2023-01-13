@@ -1,4 +1,4 @@
-package cl.sourcecode.microservices.ms.currency;
+package cl.sourcecode.microservices.currency;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

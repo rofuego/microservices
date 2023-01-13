@@ -1,13 +1,13 @@
-package cl.sourcecode.microservices.ms.conversion;
+package cl.sourcecode.microservices.student;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MsConversionApplication {
+public class MsStudentApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MsConversionApplication.class, args);
+		SpringApplication.run(MsStudentApplication.class, args);
 	}
 
 }

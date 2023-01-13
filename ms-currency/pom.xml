@@ -3,11 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>cl.sourcecode</groupId>
+		<groupId>cl.sourcecode.microservices</groupId>
         <artifactId>microservices</artifactId>
         <version>1.0.0</version>
 	</parent>
-	<groupId>cl.sourcecode.microservices</groupId>
+	<groupId>cl.sourcecode.microservices.currency</groupId>
 	<artifactId>ms-currency</artifactId>
 	<name>ms-currency</name>
 	<description>Demo project for Spring Boot</description>
