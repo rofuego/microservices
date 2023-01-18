@@ -1,6 +1,9 @@
 project:
   name: ^project.artifactId^
   version: ^project.version^
+logging:
+  level:
+    org.springframework.web: DEBUG
 spring:
   profiles:
     active:
